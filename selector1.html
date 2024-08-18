@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .box1,.box2{
+        border: 2px solid black;
+        height: 390px;
+        width: 500px;
+        padding: 20px;
+    }
+    .box2{
+        margin-left: 30px;
+        background-color: bisque;
+
+    }
+    .box1>p{
+        color: aqua;
+    }
+    .box2>p{
+        color: white;
+        font-weight: bolder;
+    }
+    /* genralised sibling selector */
+    ul~p{
+        color: green;
+    }
+    /* Adjacent sibling selector */
+    ul+p{
+        color: rebeccapurple;
+    }
+</style>
+<body>
+    <div class="box1">
+<p>        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, placeat officia, fugiat nam vero itaque delectus ad quibusdam assumenda pariatur ab reiciendis consequuntur quia sed ex sapiente esse repudiandae.
+</p>    <div class="box2">
+<p>        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, placeat officia, fugiat nam vero itaque delectus ad quibusdam assumenda pariatur ab reiciendis consequuntur quia sed ex sapiente esse repudiandae.
+</p>    </div>
+    </div>
+
+    <ul>
+        <li></li>
+      
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+        <p>Lorem ipsum dolor sit.</p>
+    </ul>
+</body>
+</html>

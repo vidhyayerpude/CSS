@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1:hover {
+    color: red;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+    color: gray;
+    background-color: rgb(203, 227, 178);
+    width: 50%;
+    border-radius:2px solid black;
+
+}
+p:hover{
+    color: black;
+}
+body{
+    background: cornsilk;
+}
+img{
+ 
+    height: 200px;
+    margin-top: 0px ;
+    padding: 4 px;
+
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    ul li {
+        display: inline-block;
+        width: 300px;
+        background-color: aqua;
+        text-align: center;
+        line-height: 40px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        display: block;
+        color: white;
+        font-weight: bold;
+    }
+
+    ul li:hover {
+        background-color: red;
+    }
+
+    .box1,
+    .box2,
+    .box3 {
+        margin: 15px;
+        width: 350px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        display: inline-block;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .box4,
+    .box5,
+    .box6 {
+        margin: 15px;
+        width: 350px;
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        display: inline-block;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    /* #info {
+    display: none; }/* Initially hide the information */
+
+
+/* #info:target { */
+    /* display: block; }Show the information when it is the target */
+    /* Additional styling properties */
+
+#info6{
+    
+}
+button:hover{
+    background-color: red;
+    
+}
+button p{
+    display: none;
+}
+</style>
+
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">contact</a></li>
+            
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box6">
+            <img src="../images/n1.jfif" alt="" height="250px" width="300px">
+
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button"><a href="../images/n1.jfif">view</a></button>
+
+
+            <button   id="info1" type="button"><a href="../images/n1.jfif">info
+                <p>Lorem ipsum dolor sit.</p>
+            </a></button>
+            
+            <!-- <a href="#info" id="myButton">Click Me</a>
+<div id="info">This is the information that will be shown.</div></button> -->
+
+        </div>
+        <div class="box2">
+            <img src="../images/n2.jfif" alt="" height="250px" width="300px">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button"><a href="../images/n2.jfif">view</a></button>
+            <button  id="info2" type="button"> info
+                <a href="">
+
+                </a>
+            </button>
+        </div>
+
+        <div class="box3">
+            <img src="../images/n3.jpg" alt="" height="250px" width="300px">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button"><a href="../images/n3.jpg">view</a></button>
+            <button   id="info3"type="button">info <a href="view.html"</a></button>
+        </div>
+
+    </div>
+    <div class="container2">
+        <div class="box4">
+            <img src="../images/n4.avif" alt="" height="250px" width="300px">
+
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button"><a href="../images/n4.avif">view</a></button>
+            <button   id="info4" type="button">info
+                <a href="view.html">
+                </a>
+            </button>
+        </div>
+        <div class="box5">
+            <img src="../images/n5.jpg" alt="" height="250px" width="300px">
+
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button  type="button"><a href="../images/n5.jpg">view</a></button>
+            <button   id="info5" type="button">info</button>
+        </div>
+        <div class="box6">
+            <img src="../images/n6.jpg" alt="" height="250px" width="300px">
+
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button type="button"><a href="../images/n6.jpg">view</a></button>
+            <button   id="info6" type="button">info</button>
+        </div>
+</body>
+<script src="https://kit.fontawesome.com/60d07f59bd.js" crossorigin="anonymous"></script>
+</html>

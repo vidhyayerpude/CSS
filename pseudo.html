@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li a{
+            text-decoration: none;
+           
+        }
+        li{display: inline-block;
+       }
+        li:only-child {
+            color: aqua;
+        }
+
+        li:only-of-type {
+            color: violet;
+        }
+
+        div:empty {
+            color: aquamarine;
+        }
+
+        li:first-child {
+            background-color: aqua;
+
+        }
+
+        li:last-child {
+            background-color: palevioletred;
+        }
+
+        li:nth-child(2n) {
+            color: rgb(29, 186, 186);
+        }
+
+        li:nth-last-child(3) {
+            color: blue;
+        }
+        li:nth-of-child(2){
+            color: aquamarine;
+            
+        }
+        li:nth-last-of-type(3){
+color: aquamarine;
+        }
+        p:lang(en){
+            color: blue;
+        }
+        p:lang(fr){
+            color: rgb(5, 177, 25);
+        }
+        p:lang(de){
+            color: rgb(158, 158, 182);
+        }
+        p:target{
+            color:rgb(235, 95, 144);
+        }
+        /* p:not(.test){
+            color: brown;
+        } */
+        p:first-of-type{
+            background-color: antiquewhite;
+        }
+        p:last-of-type{
+            background-color: fuchsia;
+        }
+        p:nth-of-type(2){
+            color: white;
+            background-color: blue;
+        }
+        p:nth-last-of-type(4){
+            background-color: purple;
+            color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div></div>
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About us">About us</a></li>
+        <li><a href="#france">france</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#delhi">delhi</a></li>
+
+    </ul>
+    <p id="Home">Lorem, ipsum dolor. ggggggggg</p>
+    <p id="About us">Lorem, ipsum dolor.</p>
+    <p id="france">Lorem, ipsum dolor.</p>
+    <p id="contact">Lorem, ipsum dolor.</p>
+    <p id="delhi">Lorem, ipsum dolor.</p>
+
+
+    <p lang="de">Lorem ipsum dolor sit amet.</p>
+    <p lang="en">Lorem ipsum dolor sit amet.</p>
+    <p lang="fr">Lorem ipsum dolor sit amet.</p>
+</body>
+
+</html>

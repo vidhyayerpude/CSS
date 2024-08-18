@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ul li:link{
+    background-color: aqua;
+}
+a:visited{
+    color: brown;
+}
+a:active{
+    color: cornflowerblue;
+}
+p::before{
+    color: green;
+
+}
+p::after{
+    color: red;
+    background: green;
+    content: lorem;
+}
+p:hover::after{
+    color: orange;
+    background: black;
+    display: block;
+    content: ex;
+}
+p:hover::before{
+    color: rgb(173, 16, 129);
+    background: black;
+    display: block;
+    content: ex;
+}
+p::first-line{
+    color: green;
+    font-size: 20px;
+}
+p::selection{
+    background-color: rebeccapurple;
+    color: wheat;
+}
+h1::selection{
+    background-color: palevioletred;
+    color: white;
+}
+li::first-letter{
+    color: yellow;
+    font-size: 20px;
+}
+option:default{
+    color: gold;
+    background: #000;
+}
+::placeholder{
+    color: aquamarine;
+}
+</style>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#honey">Honey</a></li>
+        <li><a href="#sisissi">sisissi</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus dolorem ex, commodi repudiandae cumque dolores molestiae nam natus sapiente consequuntur, sequi aspernatur.</p>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.container{
+    border: 2px solid black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container div{
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid black;
+    
+}
+.div1{
+    background-color: red;
+    order: 3;
+}
+.div2{
+    background-color: rgb(17, 209, 117);
+    order: 2;
+}
+.div3{
+    background-color: rgb(107, 41, 239);
+    order: 1;
+}
+.div4{
+    order: 4;
+    background-color: rgb(207, 22, 204);
+}
+</style>
+<body>
+    <div class="container">
+        <div class="div1">First</div>
+        <div  class="div2">second</div>
+        <div class="div2">third</div>
+        <div class="div4">fourth</div>
+        </div>
+    
+    
+</body>
+</html>

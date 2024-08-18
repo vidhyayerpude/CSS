@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>attribute selector</title>
+
+	<style>
+
+     /* ======================================= */
+		/* only attribute */
+		/* ======================================= */
+
+	    /* img[alt]{
+			border: 3px solid blue;
+		}*/
+		/*input[type]{
+			border: 3px solid red;
+		}*/
+		
+		/*a[target]{
+			color: red;
+		}*/
+
+		/* ======================================= */
+		/* attribute with value */
+		/* ======================================= */
+		
+		/*input[type='password']{
+			border:3px solid red;
+		}
+
+		img[title='sallu']{
+			border: 3px solid red;
+		}*/
+
+		/* ======================================= */
+		/* Attribute begins with value */
+		/* ======================================= */
+
+		/* img[alt^='Image']{
+			border: 3px solid blue;
+	}*/
+
+		/*img[title^='flower']{
+			border: 3px solid red;
+		}*/
+
+		/* ====================================== */
+		/* Attribute begins with value OR is first in a dash separated list */
+		/* ======================================= */
+
+		/*img[alt|='cat']{
+			border: 3px solid blue;
+		}
+*/
+		/* ======================================= */
+		/* Attribute ends with value */
+		/* ======================================= */
+
+		 /*img[alt$='of']{
+			border: 3px solid red;
+		}*/
+
+		/*a[href$='.png']{
+			color: red;
+			border:2px solid red;
+		}*/
+		/*a[href$='.net']{
+			color: red;
+		}*/
+
+		/*img[alt='merry']{
+			border:2px solid black;
+		}*/
+
+		/* ======================================= */
+		/* Attribute value occurs anywhere in attribute */
+		/* ======================================= */
+
+		img[alt*='f']{
+			border: 3px solid blue;
+		}
+
+		/* ======================================= */
+		/* Attribute value matches attribute in space separated list. */
+		/* ======================================= */
+
+		/*img[alt~='of']{
+			border: 3px solid blue;
+		}*/
+
+	</style>
+
+
+</head>
+<body>
+  
+    <a href="4.png">
+	<!-- <img src="images/salman.jpg" alt="Image-of-cat" title="sallu"> -->
+
+		<img src="images/salman.jpg" alt="Image cat of" title="sallu">
+
+    </a>
+
+	<br><br>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla eu augue in urna auctor lacinia. Donec vestibulum, tellus ut mollis finibus, tellus quam sollicitudin lacus, quis <a href="https://www.anishreetech.com" target="_self">feugiat ex enim</a> ac turpis.
+Nam non leo lorem. Pellentesque eu ligula ac nisi ultricies consectetur. Suspendisse tincidunt vitae elit vel dapibus. Mauris imperdiet.</p>
+
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Nulla eu augue in urna auctor lacinia. Donec vestibulum, tellus ut mollis finibus, tellus quam sollicitudin lacus, quis feugiat ex enim ac turpis.</p>
+
+
+
+<img src="images/merry.jpg" alt="merryofimg" title="Merrychristmas" height="200" width="200">
+
+
+	<form>
+
+Name:-<input type="text" placeholder="Your Name">
+
+<br><br>
+
+Password:-<input type="password" placeholder="Your Password">
+
+<br><br>
+
+
+
+Gender:<input type="radio">Male
+       <input type="radio">Female 
+       <input type="radio">Others
+	
+<br/><br/>
+<input type="submit" value="Submit">
+</form>
+
+
+</body>
+</html>

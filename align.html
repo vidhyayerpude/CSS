@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+        border: 2px solid black;
+        height: 400px;
+        /* width: 400px; */
+        width: 100%;
+        /* align-items: stretch; */
+        align-content: center;
+        align-content: flex-end;
+        align-content: flex-start;
+        align-content: space-between;
+        align-content: space-around;
+
+        align-content: space-evenly;
+    }
+    .container div{
+        padding: 20px;
+        margin: 20px;
+        border: 2px solid black;
+        display: inline-block
+        /* flex-direction: row; */
+        
+    }
+    .div1{
+        background-color: red;
+    }
+    .div2{
+        background-color: rgb(17, 209, 117);
+    }
+    .div3{
+        background-color: rgb(107, 41, 239);
+    }
+    .div4{
+        background-color: rgb(207, 22, 204);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="div1">First</div>
+        <div class="div2">second</div>
+        <div class="div2">third</div>
+        <div class="div4">fourth</div>
+    </div>
+</body>
+</html>

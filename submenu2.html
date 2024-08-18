@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/60d07f59bd.js" crossorigin="anonymous"></script>
+
+</head>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    width: 230px;
+    text-align: center;
+ font-weight: bold;
+ display: block;
+    padding: 30px;
+}
+ul li:hover a{
+    background-color: green;
+}
+ul ul{
+    display: none;
+    position: absolute;
+}
+ul li{
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    line-height: 30px;
+    position: relative;
+    
+} ul li:hover>ul{
+    display: block;
+    background-color: purple;
+}
+
+ul ul ul{
+    margin-left: 230px;
+top: 0px;}
+h1,p{
+    text-align: center;
+    justify-content: center;
+    line-height: 40px;
+}
+
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about &nbsp;<i class="fa fa-caret-down"></i></a>
+            <ul style="position: absolute;">
+                <li><a href="Company">company</a></li>
+                <li><a href="team">team</a></li>
+                <li><a href="Coureer">coureers</a></li>
+            </ul></li>
+            <li><a href="#">services &nbsp;<i class="fa fa-caret-down"></i></a>
+            <ul style="position: absolute;">
+                <li><a href="#">Bring</a></li>
+                <li><a href="#">Deliver</a></li>
+                <li><a href="#">package</a></li>
+                <li><a href="#">express</a></li>
+            </ul></li>
+            <li><a href="#">partners</a></li>
+        </ul>
+    </nav>
+    <h1>company</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit praesentium aut consectetur reprehenderit! Consequuntur incidunt excepturi aspernatur libero iure tenetur, laudantium distinctio ex nostrum suscipit reiciendis qui cumque deleniti quam architecto accusantium recusandae illo dolor? Repudiandae fugit minus praesentium ad, aspernatur quia aliquam laudantium possimus tempora, vitae nam quidem reiciendis eum tempore quas, doloremque earum!</p>
+</body>
+</html>
